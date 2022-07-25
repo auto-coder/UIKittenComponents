@@ -11,12 +11,13 @@ import ListComponent from './Components/List/ListComponent';
 import ButtonComponent from './Components/Button/ButtonComponent';
 import ButtonGroupComponent from './Components/ButtonGroup/ButtonGroupComponent';
 import CheckBoxComponent from './Components/CheckBox/CheckBoxComponent';
+import RadioComponent from './Components/Radio/RadioComponent';
 
 
 const App=() => (
 <ApplicationProvider {...eva} theme={eva.light}>
 <IconRegistry icons={EvaIconsPack} />
-    <CheckBoxComponent/>
+    <RadioComponent/>
 </ApplicationProvider>
   
 );
