@@ -17,12 +17,13 @@ import InputComponent from './Components/Input/InputComponent';
 import SelectComponent from './Components/Select/SelectComponent';
 import AutocompleteComponent from './Components/Autocomplete/AutocompleteComponent';
 import ModalComponent from './Components/Modal/ModalComponent';
+import CalendarComponent from './Components/Calendar/CalendarComponent';
 
 
 const App=() => (
 <ApplicationProvider {...eva} theme={eva.light}>
 <IconRegistry icons={EvaIconsPack} />
-    <ModalComponent/>
+    <CalendarComponent/>
 </ApplicationProvider>
   
 );
