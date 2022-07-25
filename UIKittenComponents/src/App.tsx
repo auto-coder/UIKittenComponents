@@ -9,12 +9,13 @@ import IconComponent from './Components/Icon/IconComponent';
 import CardComponent from './Components/Card/CardComponent';
 import ListComponent from './Components/List/ListComponent';
 import ButtonComponent from './Components/Button/ButtonComponent';
+import ButtonGroupComponent from './Components/ButtonGroup/ButtonGroupComponent';
 
 
 const App=() => (
 <ApplicationProvider {...eva} theme={eva.light}>
 <IconRegistry icons={EvaIconsPack} />
-    <ButtonComponent/>
+    <ButtonGroupComponent/>
 </ApplicationProvider>
   
 );
