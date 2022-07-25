@@ -15,12 +15,13 @@ import RadioComponent from './Components/Radio/RadioComponent';
 import ToggleComponent from './Components/Toggle/ToggleComponent';
 import InputComponent from './Components/Input/InputComponent';
 import SelectComponent from './Components/Select/SelectComponent';
+import AutocompleteComponent from './Components/Autocomplete/AutocompleteComponent';
 
 
 const App=() => (
 <ApplicationProvider {...eva} theme={eva.light}>
 <IconRegistry icons={EvaIconsPack} />
-    <SelectComponent/>
+    <AutocompleteComponent/>
 </ApplicationProvider>
   
 );
