@@ -10,12 +10,13 @@ import CardComponent from './Components/Card/CardComponent';
 import ListComponent from './Components/List/ListComponent';
 import ButtonComponent from './Components/Button/ButtonComponent';
 import ButtonGroupComponent from './Components/ButtonGroup/ButtonGroupComponent';
+import CheckBoxComponent from './Components/CheckBox/CheckBoxComponent';
 
 
 const App=() => (
 <ApplicationProvider {...eva} theme={eva.light}>
 <IconRegistry icons={EvaIconsPack} />
-    <ButtonGroupComponent/>
+    <CheckBoxComponent/>
 </ApplicationProvider>
   
 );
