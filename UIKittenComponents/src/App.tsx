@@ -18,13 +18,13 @@ import SelectComponent from './Components/Select/SelectComponent';
 import AutocompleteComponent from './Components/Autocomplete/AutocompleteComponent';
 import ModalComponent from './Components/Modal/ModalComponent';
 import TopNavigationComponent from './Components/TopNavigation/TopNavigationComponent';
-import MenuComponent from './Components/Menu/MenuComponent';
+import OverflowMenuComponent from './Components/OverflowMenu/OverflowMenuComponent';
 
 
 const App=() => (
 <ApplicationProvider {...eva} theme={eva.light}>
 <IconRegistry icons={EvaIconsPack} />
-    <MenuComponent/>
+    <OverflowMenuComponent/>
 </ApplicationProvider>
   
 );
