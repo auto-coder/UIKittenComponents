@@ -14,12 +14,13 @@ import CheckBoxComponent from './Components/CheckBox/CheckBoxComponent';
 import RadioComponent from './Components/Radio/RadioComponent';
 import ToggleComponent from './Components/Toggle/ToggleComponent';
 import InputComponent from './Components/Input/InputComponent';
+import SelectComponent from './Components/Select/SelectComponent';
 
 
 const App=() => (
 <ApplicationProvider {...eva} theme={eva.light}>
 <IconRegistry icons={EvaIconsPack} />
-    <InputComponent/>
+    <SelectComponent/>
 </ApplicationProvider>
   
 );
